@@ -1,0 +1,181 @@
+body{
+    padding:0px;
+     margin: 0px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+section{
+    margin: 0px;
+    /* border: black solid 2px; */
+    /* height: 500px; */
+    /* background-color: yellow; */
+}
+
+.hello{
+    height: 100vh;
+    background-color: rgb(15, 15, 15);
+    font-size: 40px;
+
+}
+
+footer{
+    height: 500px;
+    background-color: rgb(109, 46, 46); 
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 600px;
+    font-size:30px ;
+    /* justify-content: space-between;
+    width: 500px; */
+}
+
+li{
+   /* width: 200px; */
+   text-decoration: none;
+}
+
+h1{
+    font-size: 90px;
+    margin: 0px;
+}
+
+
+.hello-text{
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.button{
+    height: 55px;
+    width: 250px;
+    /* color: black; */
+    background-color: coral;
+    border-radius: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.button:hover{
+ color: black;
+ cursor: pointer;
+}
+
+.button:active{
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+p{
+    margin: 0px;
+}
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.socials img{
+    height: 50px;
+    margin: 3px;
+}
+
+.logo{
+    margin: 10px;
+}
+
+.sub-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    color: black;
+}
+
+.info p{
+    font-size: 30px;
+    /* margin: 30px; */
+    /* padding: 30px; */ 
+}
+
+.info h2{
+  font-size: 50px;
+}
+
+.headshot{
+    
+margin: 30px;
+display: flex;
+align-items: center;
+}
+
+.headshot img{
+    height: 300px;
+}
+
+.all-projects{
+    padding: 70px;
+}
+
+.all-projects h2{
+    color: black;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-card{
+    color: black;
+    width: 300px;
+    height: 400px;
+    /* border: 2px solid black; */
+    box-shadow: 5px 5px 10px;
+    margin: 30px;
+}
+
+.Project-image{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 150px;
+}
+
+.project-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.project-card h2{
+    font-size: 25px;
+}
+
+.subtext{
+    font-size: 15px;
+    text-align: center;
+}
